@@ -306,7 +306,7 @@ def main():
             # f.write(  f'\n\t\t\t\t   {        elem  }\n{  dictionary[elem]  }\n'   )
             f.write(  f'\n                   {  elem  }\n{  dictionary[elem]  }\n'   )
         f.close();                                    print(   f'\n{  len( dictionary )  }'
-                                                           f'\n{  name_for_log_file  }'   )
+                                                               f'\n{  name_for_log_file  }'   )
 
 
     # name_for_log_file   =   f'{  TheOnlyTime( datetime.now() )  } TheOnlyTime+GPS LOG NumOfRenamedPhotos{  index  } .csv'
